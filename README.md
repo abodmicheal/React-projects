@@ -1,4 +1,4 @@
-# React-projects
+We # React-projects
 
  
 <ul>
@@ -11,4 +11,4 @@
 </ul>
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![alt-text](https://github.com/abodmicheal/React-projects/blob/master/Single-Channel-Messanger/public/20200825_112955.gif?raw=true)
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="140" height="100" />
