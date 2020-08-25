@@ -1,0 +1,111 @@
+*{
+  margin: 0 ;
+  padding:0;
+  box-sizing: border-box;
+  }
+  .App {
+  text-align: center;
+}
+body{
+  background-color: #fafafa;
+  margin-bottom: 90px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/*form container*/
+.form-container {
+  display: flex ;
+  position: fixed;
+  bottom: 10px ;
+  margin: 50% 0 1% 10%;
+  width: 80%;
+  z-index: 1 ;
+  background-color: #d3d3d3 ;
+  padding: 10px;
+}
+/*nav bar */
+.bar{
+  background-color: #9172ec !important;
+  color: black;
+  padding: 20px;
+}
+/*user input*/
+.inpt {
+  width: 90%;
+  padding: 60px;
+  text-align: center;
+}
+/*user send button*/
+.btn {
+  border: 0 ;
+  background-color: #d3d3d3 ;
+  color: #9172ec;
+  margin-right: 13px;
+}
+/*user container*/
+.cont{
+  max-width:50%;
+  height: 10%;
+  margin:25px ;
+  padding-left: 4px;
+}
+/*user and Guest styling*/
+.cont_user {
+  margin-left: auto !important;
+  background-color:#9172ec !important ;
+  color: #ffffff !important;
+}
+.cont_user > div {
+    color: #ffffff !important;
+}
+/*users Name*/
+.cont > div > h4 {
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 13px;
+  padding: 4px 0 0  4px;
+}
+/*messages by users*/
+.cont > div > div {
+  font-weight: bold;
+  text-align: left;
+  color: #343434 ;
+}
+/*users Time*/
+.cont > div > h5 {
+  font-weight: lighter;
+  text-align: right;
+  padding: 0 4px 4px 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
