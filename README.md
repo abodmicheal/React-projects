@@ -8,7 +8,7 @@
    <h4><a href="https://single-channel-messanger.web.app" target="_blank">Lauch Demo/Live Project</a></h4>
     
 <li><h1>Netflix UI Web App</h1>
-   <p><h3>Tools Used</h3><li>React(No Hooks)</li><li>Css + BEM</li><li>Firebase(Hosting)</li><li>TMDB API</li><li>Material UI(icons)</li><li>React Movie-Trailer</li><li>React-Youtube</li><li>Axios JS</li></P>
+   <p><h3>Tools Used</h3><li>React(No Hooks)</li><li>Css + BEM</li><li>Firebase(Hosting)</li><li>TMDB API</li><li>Material UI</li><li>React Movie-Trailer</li><li>React-Youtube</li><li>Axios JS</li></P>
     
    
  </ul>
