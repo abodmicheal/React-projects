@@ -1,0 +1,43 @@
+[debug] [2020-09-15T13:52:43.660Z] ----------------------------------------------------------------------
+[debug] [2020-09-15T13:52:43.664Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Awofadeju\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-15T13:52:43.665Z] CLI Version:   8.10.0
+[debug] [2020-09-15T13:52:43.665Z] Platform:      win32
+[debug] [2020-09-15T13:52:43.665Z] Node Version:  v12.16.1
+[debug] [2020-09-15T13:52:43.666Z] Time:          Tue Sep 15 2020 14:52:43 GMT+0100 (West Africa Standard Time)
+[debug] [2020-09-15T13:52:43.667Z] ----------------------------------------------------------------------
+[debug] [2020-09-15T13:52:43.667Z] 
+[debug] [2020-09-15T13:52:43.675Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-15T13:52:43.676Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Awofadeju\Documents\dev\my-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using single-channel-messanger. 
+[debug] [2020-09-15T13:52:49.900Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/single-channel-messanger  
+ 
+[debug] [2020-09-15T13:52:50.567Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 15 Sep 2020 13:52:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
