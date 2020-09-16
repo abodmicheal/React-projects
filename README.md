@@ -15,7 +15,6 @@
 
    <li><h1>Classified Adds Web App</h1>
     <p><h3>Tools Used</h3><li>React with Hooks</li><li>React Router</li><li>Firebase</li><li>Material Ui</li><li>Css</li></P>
-    <img src="#?raw=true" />
-    <h4><a href="#" target="_blank">Lauch Demo/Live Project</a></h4>
+    
     
     </ul>
