@@ -12,5 +12,5 @@
     
  <img src="https://github.com/abodmicheal/React-projects/blob/master/gifs/20200915_142422.gif?raw=true" />
  <h4><a href="https://netflix-clone-dd230.web.app/" target="_blank">Lauch Demo/Live Project</a></h4>
-    
+    <h6>used a library to fetch previews but The Netflix original and main banner as no preview,  click play on other categories </h6>
  </ul>
