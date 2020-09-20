@@ -1,5 +1,5 @@
 const Movieslist = {
-  trending: "/trending/all/week?api_keys={Api}",
+  trending: "/trending/all/week?api_key={Api}",
   netflixOriginals:
     "/discover/tv?api_key={Api}&page=1&with_networks=213",
   topRated: "/movie/top_rated?api_key=b{Api}&page=2",
