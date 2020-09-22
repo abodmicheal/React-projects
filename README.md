@@ -14,7 +14,7 @@
      <h4><a href="https://netflix-clone-dd230.web.app/" target="_blank">Lauch Demo/Live Project</a></h4>
 
    <li><h1>Airbnb UI Web App</h1>
-    <p><h3>Tools Used</h3><li>React with Hooks</li><li>React Router</li><li>Firebase</li><li>Material Ui</li><li>Css</li></P>
+    <p><h3>Tools Used</h3><li>React(No Hooks)</li><li>React Router</li><li>Firebase(Hosting)</li><li>Material Ui</li><li>Css</li><li>React Date-Range-Picker</li></P>
     
     
     
