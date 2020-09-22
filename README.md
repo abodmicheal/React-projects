@@ -13,7 +13,7 @@
      <h6>Used a library to fetch previews but The Netflix original and main banner as no preview,  click play on other categories </h6>
      <h4><a href="https://netflix-clone-dd230.web.app/" target="_blank">Lauch Demo/Live Project</a></h4>
 
-   <li><h1>House Rentals (Airbnb)</h1>
+   <li><h1>Home/Vacation Rentals(like Airbnb)</h1>
     <p><h3>Tools Used</h3><li>React(No Hooks)</li><li>React Router</li><li>Firebase(Hosting)</li><li>Material Ui</li><li>Css</li><li>react-date-ranger</li></P>
     
     
