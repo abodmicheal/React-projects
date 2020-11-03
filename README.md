@@ -19,4 +19,4 @@
     <h4><a href="https://abod-bnb.web.app/" target="_blank">Lauch Demo/Live Project</a></h4>
 
    <li><h1>Photo Editor</h1>
-   <p><h3>Tools Used</h3><li>React(No Hooks)</li><li>Firebase</li><li>Css</li></P>
+   <p><h3>Tools Used</h3><li>React(No Hooks)</li><li>Firebase</li><li>Css + Css Filter</li></P>
