@@ -1,0 +1,48 @@
+.nav {
+  position: relative;
+  top: -9px;
+  box-shadow: 0 1px 7px #dedede;
+}
+.nav__logo {
+  color: #ff385c;
+  position: relative;
+  top: -22px;
+  padding-left: 4%;
+  display: flex;
+}
+.nav__header {
+  display: flex;
+  position: absolute;
+  right: 15%;
+  top: 18px;
+}
+.nav__cont {
+  display: flex;
+  margin: 10px;
+  position: relative;
+  top: 1px;
+  padding: 10px;
+}
+
+.nav__mobile {
+  display: none;
+}
+@media (max-width: 746px) {
+  .nav {
+    display: none;
+  }
+  .nav__main {
+    display: none;
+  }
+  .nav__mobile {
+    top: 0;
+    display: block;
+    position: sticky;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    color: red;
+    z-index: 1;
+    box-shadow: 0 1px 7px #dedede;
+  }
+}

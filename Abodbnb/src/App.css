@@ -1,0 +1,171 @@
+.Head {
+  background-color: red;
+}
+/* NOTE:RESULT PAGE  */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.result {
+  margin: 20px 0 20px 20px;
+}
+.result > h4 {
+  font-weight: normal;
+  margin: 6px;
+}
+.result button {
+  margin: 20px 1% 0 0.5%;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 12px;
+  font-weight: bold;
+  background-color: transparent;
+  outline: 0;
+  transition: 0.2s ease-out;
+}
+
+.result button:hover {
+  background-color: #dddddd;
+  opacity: 0.8;
+}
+.resultcont {
+  display: flex;
+  position: relative;
+  padding: 8px 0 25px 0;
+  margin: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #dddddd;
+}
+.resultcont img {
+  position: relative;
+  border-radius: 10px;
+}
+.resultcont h4 {
+  margin-top: -6px;
+  color: #464646;
+  font-weight: normal;
+}
+.resultcont__info {
+  padding: 0 0 0 2%;
+}
+
+.resultcont__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.resultcont__price {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  font-size: 20px;
+}
+.resultcont__star {
+  color: red !important;
+  font-size: 25px;
+  position: absolute;
+  bottom: 22px;
+  left: 37%;
+  opacity: 0px;
+}
+span {
+  color: black;
+  font-weight: bold;
+}
+button {
+  border: none;
+}
+.resultcont__heart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -35px;
+  right: 0;
+  background: url(https://cssanimation.rocks/images/posts/steps/heart.png)
+    no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  animation: fave-heart 1s steps(28);
+  border: 0;
+  outline: 0;
+}
+
+.heart {
+  background-position: -2800px 0;
+  transition: background 1s steps(28);
+}
+.marg {
+  padding: 20px;
+}
+@media (max-width: 751px) {
+  .resultcont img {
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .resultcont {
+    display: block;
+  }
+  .resultcont__body {
+    display: none;
+  }
+  .resultcont__heart {
+    top: -9px;
+    right: -9px;
+  }
+  .resultcont__price {
+    position: relative;
+    top: 0;
+    left: 10px;
+  }
+  .resultcont__star {
+    display: relative;
+    bottom: 100px;
+    left: 0;
+    margin: 0 5px 3px 5px;
+  }
+  .resultcont__info {
+    margin-top: 25px;
+  }
+  .resultcont img {
+    margin-bottom: 12px;
+  }
+  .header button {
+    margin-left: 16px;
+    padding: 0px;
+    border: 2px solid #dddddd;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    outline: 0;
+    font-size: 15px;
+    font-weight: bold;
+    width: 60vw;
+    padding: 2%;
+  }
+  .header__text {
+    display: none;
+  }
+  .mobile__text {
+    position: relative;
+    display: block;
+    margin-right: 0;
+    opacity: 0.6;
+    font-weight: normal;
+  }
+  .mobile__text svg {
+    position: relative;
+    left: -20px;
+    margin-right: 3%;
+  }
+  .mobile__text i {
+    position: relative;
+    left: -20px;
+    bottom: 4.9px;
+    font-style: normal;
+  }
+  .Head {
+    display: none;
+  }
+}

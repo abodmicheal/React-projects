@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+}
+.header button {
+  margin-left: 55px;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 2px solid #dddddd;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  outline: 0;
+  font-size: 15px;
+  font-weight: bold;
+  width: 480px;
+}
+.header__text {
+  margin-right: 280px;
+  opacity: 0.6;
+  font-weight: normal;
+}
+.mobile__text,
+.mobile__icon {
+  display: none;
+}
+.footer {
+  background-color: #f7f7f7;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  width: 100%;
+  padding: 3%;
+  opacity: 0.9;
+  margin-top: 80px;
+  border-top: 1px solid #dddddd !important ;
+}
+.svglogo {
+  position: relative;
+  top: 0.7vh;
+}
+span h2 {
+  font-family: cursive;
+  margin-left: 5px;
+  font-weight: normal;
+  margin-top: 7px;
+}
+.header__icon {
+  display: flex;
+  top: 9px;
+  left: 10%;
+  position: relative;
+  cursor: pointer;
+}
+.header__icon svg {
+  margin-top: 3px;
+}
+@media (max-width: 1064px) {
+  .header__icon {
+    left: 2%;
+    position: none;
+  }
+}
+@media (max-width: 952px) {
+  .header__icon h3 {
+    display: none;
+  }
+  .header button {
+    width: 57vw;
+    padding: 2%;
+  }
+}
+@media (max-width: 751px) {
+  .header button {
+    margin-left: 16px;
+    padding: 0px;
+    border: 2px solid #dddddd;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    outline: 0;
+    font-size: 15px;
+    font-weight: bold;
+    width: 60vw;
+    padding: 2%;
+  }
+  .header__text {
+    display: none;
+  }
+  .mobile__text {
+    position: relative;
+    display: block;
+    margin-right: 0;
+    opacity: 0.6;
+    font-weight: normal;
+  }
+  .mobile__text svg {
+    position: relative;
+    left: -20px;
+    margin-right: 3%;
+  }
+  .mobile__text i {
+    position: relative;
+    left: -20px;
+    bottom: 4.9px;
+    font-style: normal;
+  }
+  .header__icon {
+    display: none;
+  }
+  .mobile__icon {
+    cursor: pointer;
+    display: block;
+    top: 10px;
+    left: 2%;
+    position: relative;
+    color: #dddddd;
+    transition: all 0.1s linear;
+  }
+  .mobile__icon:hover {
+    color: #ff385c;
+  }
+}
+@media (max-width: 440px) {
+  .mobile__icon {
+    left: -4%;
+  }
+}
