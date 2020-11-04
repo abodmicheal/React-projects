@@ -1,0 +1,59 @@
+.ranger {
+  padding: 3px;
+  position: absolute;
+  top: 70px;
+  left: 32%;
+}
+.ranger label {
+  position: absolute;
+  padding: 12.3px;
+  background-color: #fafafa;
+  cursor: pointer;
+  width: 156px;
+}
+.ranger__input {
+  width: 110px;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #fafafa;
+  margin-right: 7px;
+}
+.ranger button {
+  width: 20px;
+}
+@media (max-width: 751px) {
+  .ranger {
+    padding: 3px;
+    position: absolute;
+    top: 70px;
+    left: 8.8%;
+  }
+}
+@media (max-width: 519px) {
+  .ranger {
+    padding: 3px;
+    position: absolute;
+    top: 65px;
+    left: 15%;
+  }
+  .ranger label {
+    top: 95%;
+    left: 3px;
+    width: 98%;
+  }
+}
+@media (max-width: 425px) {
+  .ranger {
+    padding: 3px;
+    position: absolute;
+    top: 63px;
+    left: 6%;
+  }
+  .ranger label {
+    top: 95%;
+    left: 3px;
+    width: 98%;
+  }
+}

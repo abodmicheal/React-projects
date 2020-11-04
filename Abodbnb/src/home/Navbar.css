@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Nav {
+  color: white !important;
+  transition: all 0.1s linear;
+  position: fixed;
+  z-index: 2;
+  padding: 20px;
+}
+
+.Nav__black {
+  transition: all 0.5s ease-in;
+  z-index: 2;
+  background: #ffffff;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  color: black;
+}
+.Nav span {
+  color: white;
+  display: flex;
+}
+.Nav__black span {
+  color: #ff385c;
+}
+svg {
+  margin-left: 25px;
+  margin-top: 4px;
+}
+
+@media (max-width: 751px) {
+  span h2 {
+    display: none;
+  }
+}
