@@ -19,4 +19,4 @@
     <h4><a href="https://abod-bnb.web.app/" target="_blank">Lauch Demo/Live Project</a></h4>
 
    <li><h1>Ecommerce Web App</h1>
-   <p><h3>Tools Used</h3><li>React + Hooks</li><li>Firebase + User authentication & DB</li><li>Css</li><li>React Context API</li><li>React ROUTER</li></P>
+   <p><h3>Tools Used</h3><li>React + Hooks</li><li>Firebase + User authentication & DB</li><li>Css</li><li>Redux</li><li>React ROUTER</li></P>
