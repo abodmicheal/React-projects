@@ -1,0 +1,13 @@
+.footer {
+  position: relative;
+  bottom: 0;
+}
+.footer_seperator {
+  margin: 0px 0 25px 0;
+  border: 1px solid #e6e7e8;
+  width: 98%;
+}
+.footer_end {
+  margin-bottom: 25px;
+  padding: 0 0 0 20px;
+}
